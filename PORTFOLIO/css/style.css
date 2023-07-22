@@ -1,10 +1,13 @@
 body{
-    background-color: silver;
+    background-color: rgb(3, 1, 24);
+    color:aliceblue;
+}
+.one{
+    font-family:'Franklin Gothic Medium';
 }
 
 .bannerBGImage{
-    height: 100vh;
-    background: url("/images/bannerimage.jpg");
+    height: 150vh;
     background-size: cover;
     position: relative;
 }
@@ -16,8 +19,21 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(95, 188, 190);
+    color: rgb(0, 251, 255);
+    background-color:rgba(240, 248, 255, 0.489);
+    text-shadow: 5px 5px 5px #000000;
+    font-family:'Courier New', Courier, monospace;
+
 }
+.one{
+
+
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style:white;
+        
+}
+
+
 
 .bannerTitle{
     font-size: 4rem;
@@ -31,14 +47,14 @@ body{
     margin:3%;
 }
 .card{
-    background-color:lightsteelblue;
+    background-color:rgb(152, 234, 245);
     cursor:pointer;
     margin: 6%;
 
 }
 
 .card:hover{
-    background-color:lightslategrey;
+    background-color:rgb(101, 187, 211);
     border: 8px ;solid: silver; 
 }
 
